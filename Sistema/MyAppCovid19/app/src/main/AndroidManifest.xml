@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name="com.milifi.myappcovid19.ui.country.CovidCountryDetail" android:label="Estadisticas por Pais"></activity>
+        <activity android:name="com.milifi.myappcovid19.ui.country.class_CovidPaisDetalle" android:label="Estadisticas por Pais"></activity>
 
         <activity
             android:name="com.milifi.myappcovid19.MainActivity"

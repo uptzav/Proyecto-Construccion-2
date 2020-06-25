@@ -1,3 +1,17 @@
+/*
+ * @(#)MainActivity.java 1.1 25/06/20
+ *
+ * UPT
+ * Construccion de Software II.
+ */
+
+/**
+ *
+ * @author Fiorella Salamanca
+ * @version 1.1, 25/06/20
+ * @since 1.0
+ */
+
 package com.milifi.myappcovid19;
 
 import android.os.Bundle;

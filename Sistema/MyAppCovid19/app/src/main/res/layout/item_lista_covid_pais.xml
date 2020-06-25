@@ -13,14 +13,14 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:id="@+id/imgCountryFlag"
+            android:id="@+id/imgPaisBandera"
             tools:src="@drawable/us"
             android:layout_width="48dp"
             android:layout_height="32dp"
             android:layout_gravity="center_vertical" />
 
         <TextView
-            android:id="@+id/tvCountryName"
+            android:id="@+id/tvPaisNombre"
             style="@style/LabelFontStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -30,7 +30,7 @@
             tools:text="China" />
 
         <TextView
-            android:id="@+id/tvTotalCases"
+            android:id="@+id/tvTotalCasos"
             style="@style/LabelFontStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

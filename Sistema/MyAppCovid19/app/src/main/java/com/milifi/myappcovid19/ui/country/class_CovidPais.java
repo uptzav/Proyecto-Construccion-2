@@ -1,3 +1,17 @@
+/*
+ * @(#)class_CovidPais.java 1.1 25/06/20
+ *
+ * UPT
+ * Construccion de Software II.
+ */
+
+/**
+ *
+ * @author Luis Zavala
+ * @version 1.1, 25/06/20
+ * @since 1.0
+ */
+
 package com.milifi.myappcovid19.ui.country;
 
 import android.os.Parcel;
@@ -20,39 +34,39 @@ public class class_CovidPais implements Parcelable {
         this.mBanderas = mFlags;
     }
 
-    public String getmCovidCountry() {
+    public String getmCovidPais() {
         return mCovidPais;
     }
 
-    public int getmCases() {
+    public int getmCasos() {
         return mCasos;
     }
 
-    public String getmTodayCases() {
+    public String getmHoyCasos() {
         return mCasosHoy;
     }
 
-    public String getmDeaths() {
+    public String getmMuertes() {
         return mMuertes;
     }
 
-    public String getmTodayDeaths() {
+    public String getmHoyMuertes() {
         return mMuertesHoy;
     }
 
-    public String getmRecovered() {
+    public String getmRecuperados() {
         return mRecuperados;
     }
 
-    public String getmActive() {
+    public String getmActivos() {
         return mActivos;
     }
 
-    public String getmCritical() {
+    public String getmCriticos() {
         return mCriticos;
     }
 
-    public String getmFlags() {
+    public String getmBanderas() {
         return mBanderas;
     }
 

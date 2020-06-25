@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF"
     android:gravity="center"
-    tools:context="com.milifi.myappcovid19.ui.country.CovidCountryDetail">
+    tools:context="com.milifi.myappcovid19.ui.country.CovidPaisDetalle">
 
     <LinearLayout
         android:layout_margin="16dp"
@@ -16,7 +16,7 @@
 
         <TextView
             android:textAlignment="center"
-            android:id="@+id/tvDetailCountryName"
+            android:id="@+id/tvDetallePaisNombre"
             style="@style/TotalFontStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -46,7 +46,7 @@
                 android:textSize="12sp" />
 
             <TextView
-                android:id="@+id/tvDetailTotalCases"
+                android:id="@+id/tvDetalleTotalCasos"
                 style="@style/TotalFontStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -71,7 +71,7 @@
                 android:textSize="12sp" />
 
             <TextView
-                android:id="@+id/tvDetailTodayCases"
+                android:id="@+id/tvDetalleHoyCasos"
                 style="@style/TotalFontStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -105,7 +105,7 @@
                 android:textSize="12sp" />
 
             <TextView
-                android:id="@+id/tvDetailTotalDeaths"
+                android:id="@+id/tvDetalleTotalMuertes"
                 style="@style/TotalFontStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -130,7 +130,7 @@
                 android:textSize="12sp" />
 
             <TextView
-                android:id="@+id/tvDetailTodayDeaths"
+                android:id="@+id/tvDetalleHoyMuertes"
                 style="@style/TotalFontStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -164,7 +164,7 @@
                 android:textSize="12sp" />
 
             <TextView
-                android:id="@+id/tvDetailTotalRecovered"
+                android:id="@+id/tvDetalleTotalRecuperados"
                 style="@style/TotalFontStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -198,7 +198,7 @@
                 android:textSize="12sp" />
 
             <TextView
-                android:id="@+id/tvDetailTotalActive"
+                android:id="@+id/tvDetalleTotalActivos"
                 style="@style/TotalFontStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -223,7 +223,7 @@
                 android:textSize="12sp" />
 
             <TextView
-                android:id="@+id/tvDetailTotalCritical"
+                android:id="@+id/tvDetalleTotalCriticos"
                 style="@style/TotalFontStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -232,8 +232,5 @@
                 android:textSize="26sp"
                 tools:text="3" />
         </LinearLayout>
-
     </LinearLayout>
-
-
 </RelativeLayout>

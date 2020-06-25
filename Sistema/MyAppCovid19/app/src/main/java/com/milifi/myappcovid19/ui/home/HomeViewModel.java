@@ -1,3 +1,17 @@
+/*
+ * @(#)HomeViewModel.java 1.1 25/06/20
+ *
+ * UPT
+ * Construccion de Software II.
+ */
+
+/**
+ *
+ * @author Fiorella Salamanca
+ * @version 1.1, 25/06/20
+ * @since 1.0
+ */
+
 package com.milifi.myappcovid19.ui.home;
 
 import androidx.lifecycle.LiveData;
@@ -10,7 +24,7 @@ public class HomeViewModel extends ViewModel {
 
     public HomeViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is home fragment");
+        mText.setValue("Fragmento de Inicio");
     }
 
     public LiveData<String> getText() {

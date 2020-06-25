@@ -1,3 +1,18 @@
+
+/*
+ * @(#)class_CovidPaisAdaptador.java 1.1 25/06/20
+ *
+ * UPT
+ * Construccion de Software II.
+ */
+
+/**
+ *
+ * @author Fiorella Salamanca
+ * @version 1.1, 25/06/20
+ * @since 1.0
+ */
+
 package com.milifi.myappcovid19.ui.country;
 
 import android.content.Context;
@@ -19,73 +34,73 @@ import com.bumptech.glide.request.RequestOptions;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CovidCountryAdapter extends RecyclerView.Adapter<CovidCountryAdapter.ViewHolder> implements Filterable {
+public class class_CovidPaisAdaptador extends RecyclerView.Adapter<class_CovidPaisAdaptador.ViewHolder> implements Filterable {
 
-    private List<class_CovidPais> covidCountries;
-    private List<class_CovidPais> covidCountriesFull;
+    private List<class_CovidPais> covidPaises;
+    private List<class_CovidPais> covidPaisesCompleto;
 
     private Context context;
 
-    public CovidCountryAdapter(List<class_CovidPais> covidCountries, Context context) {
-        this.covidCountries = covidCountries;
+    public class_CovidPaisAdaptador(List<class_CovidPais> covidPaises, Context context) {
+        this.covidPaises = covidPaises;
         this.context = context;
-        covidCountriesFull = new ArrayList<>(covidCountries);
+        covidPaisesCompleto = new ArrayList<>(covidPaises);
     }
 
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_list_covid_country, parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_lista_covid_pais, parent, false);
 
         return new ViewHolder(view);
     }
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        class_CovidPais classCovidPais = covidCountries.get(position);
-        holder.tvTotalCases.setText(Integer.toString(classCovidPais.getmCases()));
-        holder.tvCountryName.setText(classCovidPais.getmCovidCountry());
+        class_CovidPais classCovidPais = covidPaises.get(position);
+        holder.tvTotalCasos.setText(Integer.toString(classCovidPais.getmCasos()));
+        holder.tvPaisNombre.setText(classCovidPais.getmCovidPais());
 
         // Glide
         Glide.with(context)
-                .load(classCovidPais.getmFlags())
+                .load(classCovidPais.getmBanderas())
                 .apply(new RequestOptions().override(240, 160))
-                .into(holder.imgCountryFlag);
+                .into(holder.imgPaisBandera);
     }
 
     @Override
     public int getItemCount() {
-        return covidCountries.size();
+        return covidPaises.size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
-        TextView tvTotalCases, tvCountryName;
-        ImageView imgCountryFlag;
+        TextView tvTotalCasos, tvPaisNombre;
+        ImageView imgPaisBandera;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-            tvTotalCases = itemView.findViewById(R.id.tvTotalCases);
-            tvCountryName = itemView.findViewById(R.id.tvCountryName);
-            imgCountryFlag = itemView.findViewById(R.id.imgCountryFlag);
+            tvTotalCasos = itemView.findViewById(R.id.tvTotalCasos);
+            tvPaisNombre = itemView.findViewById(R.id.tvPaisNombre);
+            imgPaisBandera = itemView.findViewById(R.id.imgPaisBandera);
         }
     }
 
     @Override
     public Filter getFilter() {
-        return covidCountriesFilter;
+        return covidPaisesFilter;
     }
 
-    private Filter covidCountriesFilter = new Filter() {
+    private Filter covidPaisesFilter = new Filter() {
         @Override
         protected FilterResults performFiltering(CharSequence constraint) {
             List<class_CovidPais> filteredClassCovidPais = new ArrayList<>();
 
             if (constraint == null || constraint.length() == 0) {
-                filteredClassCovidPais.addAll(covidCountriesFull);
+                filteredClassCovidPais.addAll(covidPaisesCompleto);
             } else {
                 String filterPattern = constraint.toString().toLowerCase().trim();
-                for (class_CovidPais itemClassCovidPais : covidCountriesFull) {
-                    if (itemClassCovidPais.getmCovidCountry().toLowerCase().contains(filterPattern)) {
+                for (class_CovidPais itemClassCovidPais : covidPaisesCompleto) {
+                    if (itemClassCovidPais.getmCovidPais().toLowerCase().contains(filterPattern)) {
                         filteredClassCovidPais.add(itemClassCovidPais);
                     }
                 }
@@ -98,8 +113,8 @@ public class CovidCountryAdapter extends RecyclerView.Adapter<CovidCountryAdapte
 
         @Override
         protected void publishResults(CharSequence constraint, FilterResults results) {
-            covidCountries.clear();
-            covidCountries.addAll((List) results.values);
+            covidPaises.clear();
+            covidPaises.addAll((List) results.values);
             notifyDataSetChanged();
         }
     };

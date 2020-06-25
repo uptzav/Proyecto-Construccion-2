@@ -1,3 +1,17 @@
+/*
+ * @(#)class_FragmentoPais.java 1.1 25/06/20
+ *
+ * UPT
+ * Construccion de Software II.
+ */
+
+/**
+ *
+ * @author Luis Zavala
+ * @version 1.1, 25/06/20
+ * @since 1.0
+ */
+
 package com.milifi.myappcovid19.ui.country;
 
 import android.content.Intent;
@@ -40,7 +54,7 @@ public class class_FragmentoPais extends Fragment {
 
     RecyclerView rvCovidPais;
     ProgressBar progressBar;
-    CovidCountryAdapter covidPaisAdaptador;
+    class_CovidPaisAdaptador covidPaisAdaptador;
 
     private static final String TAG = class_FragmentoPais.class.getSimpleName();
     List<class_CovidPais> covidPaises;
@@ -71,7 +85,7 @@ public class class_FragmentoPais extends Fragment {
     }
 
     private void showRecyclerView() {
-        covidPaisAdaptador = new CovidCountryAdapter(covidPaises, getActivity());
+        covidPaisAdaptador = new class_CovidPaisAdaptador(covidPaises, getActivity());
         rvCovidPais.setAdapter(covidPaisAdaptador);
 
         ItemClickSupport.addTo(rvCovidPais).setOnItemClickListener(new ItemClickSupport.OnItemClickListener() {
@@ -83,7 +97,7 @@ public class class_FragmentoPais extends Fragment {
     }
 
     private void mostrarCovidPaisSeleccionado(class_CovidPais classCovidPais) {
-        Intent covidCovidCountryDetail = new Intent(getActivity(), CovidCountryDetail.class);
+        Intent covidCovidCountryDetail = new Intent(getActivity(), class_CovidPaisDetalle.class);
         covidCovidCountryDetail.putExtra("EXTRA_COVID", classCovidPais);
         startActivity(covidCovidCountryDetail);
     }
@@ -118,7 +132,7 @@ public class class_FragmentoPais extends Fragment {
                         Collections.sort(covidPaises, new Comparator<class_CovidPais>() {
                             @Override
                             public int compare(class_CovidPais o1, class_CovidPais o2) {
-                                if (o1.getmCases() > o2.getmCases()) {
+                                if (o1.getmCasos() > o2.getmCasos()) {
                                     return -1;
                                 } else {
                                     return 1;

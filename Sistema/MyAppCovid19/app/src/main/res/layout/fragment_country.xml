@@ -10,7 +10,7 @@
         android:id="@+id/rvCovidCountry"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:listitem="@layout/item_list_covid_country" />
+        tools:listitem="@layout/item_lista_covid_pais" />
 
     <ProgressBar
         android:id="@+id/progress_circular_country"
