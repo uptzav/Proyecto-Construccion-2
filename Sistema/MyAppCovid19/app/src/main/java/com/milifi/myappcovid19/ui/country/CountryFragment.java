@@ -40,7 +40,7 @@ public class CountryFragment extends Fragment {
 
     RecyclerView rvCovidPais;
     ProgressBar progressBar;
-    CovidPaisAdapter covidPaisAdapter;
+    CovidCountryAdapter covidPaisAdapter;
 
     private static final String TAG = CountryFragment.class.getSimpleName();
     List<CovidPais> covidPaises;
@@ -52,19 +52,19 @@ public class CountryFragment extends Fragment {
         // set has option menu as true because we have menu
         setHasOptionsMenu(true);
 
-        // call view
+        // Llamado vista
         rvCovidPais = root.findViewById(R.id.rvCovidCountry);
         progressBar = root.findViewById(R.id.progress_circular_country);
         rvCovidPais.setLayoutManager(new LinearLayoutManager(getActivity()));
 
         DividerItemDecoration dividerItemDecoration = new DividerItemDecoration(rvCovidPais.getContext(), DividerItemDecoration.VERTICAL);
         dividerItemDecoration.setDrawable(ContextCompat.getDrawable(getContext(), R.drawable.line_divider));
-        rvCovidCountry.addItemDecoration(dividerItemDecoration);
+        rvCovidPais.addItemDecoration(dividerItemDecoration);
 
-        //call list
+        //llamanda lista
         covidPaises = new ArrayList<>();
 
-        // call Volley method
+        // llamando metodo volley
         getDataFromServerSortTotalCases();
 
         return root;
@@ -82,7 +82,7 @@ public class CountryFragment extends Fragment {
         });
     }
 
-    private void showSelectedCovidPais(CovidPais covidPais) {
+    private void showSelectedCovidPais(CoviCountry covidPais) {
         Intent covidCovidPaisDetalle = new Intent(getActivity(), CovidPaisDetalle.class);
         covidCovidPaisDetalle.putExtra("EXTRA_COVID", covidPais);
         startActivity(covidCovidPaisDetalle);
@@ -102,7 +102,7 @@ public class CountryFragment extends Fragment {
                         for (int i = 0; i < jsonArray.length(); i++) {
                             JSONObject data = jsonArray.getJSONObject(i);
 
-                            // Extract JSONObject inside JSONObject
+                            // Extraer JSONObject dentro JSONObject
                             JSONObject countryInfo = data.getJSONObject("countryInfo");
 
                             covidPaises.add(new CovidPais(
@@ -114,7 +114,7 @@ public class CountryFragment extends Fragment {
                             ));
                         }
 
-                        // sort descending
+                        // ordenar descendente
                         Collections.sort(covidPaises, new Comparator<CovidPais>() {
                             @Override
                             public int compare(CovidPais o1, CovidPais o2) {
@@ -126,7 +126,7 @@ public class CountryFragment extends Fragment {
                             }
                         });
 
-                        // Action Bar Title
+                        // Action Bar Titulo
                         getActivity().setTitle(jsonArray.length() + " Paises");
 
                         showRecyclerView();
@@ -160,7 +160,7 @@ public class CountryFragment extends Fragment {
                         for (int i = 0; i < jsonArray.length(); i++) {
                             JSONObject data = jsonArray.getJSONObject(i);
 
-                            // Extract JSONObject inside JSONObject
+                            // Extraer JSONObject dentro JSONObject
                             JSONObject countryInfo = data.getJSONObject("countryInfo");
 
                             covidCountries.add(new CovidCountry(
@@ -172,7 +172,7 @@ public class CountryFragment extends Fragment {
                             ));
                         }
 
-                        // Action Bar Title
+                        // Action Bar Titulo
                         getActivity().setTitle(jsonArray.length() + " Paises");
 
                         showRecyclerView();
@@ -207,8 +207,8 @@ public class CountryFragment extends Fragment {
 
             @Override
             public boolean onQueryTextChange(String newText) {
-                if (covidCountryAdapter != null) {
-                    covidCountryAdapter.getFilter().filter(newText);
+                if (covidPaisAdapter != null) {
+                    covidPaisAdapter.getFilter().filter(newText);
                 }
                 return true;
             }
