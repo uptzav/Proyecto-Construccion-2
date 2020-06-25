@@ -36,23 +36,23 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class CountryFragment extends Fragment {
+public class class_FragmentoPais extends Fragment {
 
     RecyclerView rvCovidPais;
     ProgressBar progressBar;
-    CovidCountryAdapter covidPaisAdapter;
+    CovidCountryAdapter covidPaisAdaptador;
 
-    private static final String TAG = CountryFragment.class.getSimpleName();
-    List<CovidPais> covidPaises;
+    private static final String TAG = class_FragmentoPais.class.getSimpleName();
+    List<class_CovidPais> covidPaises;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_country, container, false);
 
-        // set has option menu as true because we have menu
+
         setHasOptionsMenu(true);
 
-        // Llamado vista
+        // Llamando vista
         rvCovidPais = root.findViewById(R.id.rvCovidCountry);
         progressBar = root.findViewById(R.id.progress_circular_country);
         rvCovidPais.setLayoutManager(new LinearLayoutManager(getActivity()));
@@ -61,31 +61,31 @@ public class CountryFragment extends Fragment {
         dividerItemDecoration.setDrawable(ContextCompat.getDrawable(getContext(), R.drawable.line_divider));
         rvCovidPais.addItemDecoration(dividerItemDecoration);
 
-        //llamanda lista
+        //Llamando lista
         covidPaises = new ArrayList<>();
 
-        // llamando metodo volley
+        // Llamando metodo voley
         getDataFromServerSortTotalCases();
 
         return root;
     }
 
     private void showRecyclerView() {
-        covidPaisAdapter = new CovidPaisAdapter(covidPaises, getActivity());
-        rvCovidPais.setAdapter(covidPaisAdapter);
+        covidPaisAdaptador = new CovidCountryAdapter(covidPaises, getActivity());
+        rvCovidPais.setAdapter(covidPaisAdaptador);
 
         ItemClickSupport.addTo(rvCovidPais).setOnItemClickListener(new ItemClickSupport.OnItemClickListener() {
             @Override
             public void onItemClicked(RecyclerView recyclerView, int position, View v) {
-                showSelectedCovidPais(covidPaises.get(position));
+                mostrarCovidPaisSeleccionado(covidPaises.get(position));
             }
         });
     }
 
-    private void showSelectedCovidPais(CoviCountry covidPais) {
-        Intent covidCovidPaisDetalle = new Intent(getActivity(), CovidPaisDetalle.class);
-        covidCovidPaisDetalle.putExtra("EXTRA_COVID", covidPais);
-        startActivity(covidCovidPaisDetalle);
+    private void mostrarCovidPaisSeleccionado(class_CovidPais classCovidPais) {
+        Intent covidCovidCountryDetail = new Intent(getActivity(), CovidCountryDetail.class);
+        covidCovidCountryDetail.putExtra("EXTRA_COVID", classCovidPais);
+        startActivity(covidCovidCountryDetail);
     }
 
     private void getDataFromServerSortTotalCases() {
@@ -102,10 +102,10 @@ public class CountryFragment extends Fragment {
                         for (int i = 0; i < jsonArray.length(); i++) {
                             JSONObject data = jsonArray.getJSONObject(i);
 
-                            // Extraer JSONObject dentro JSONObject
+                            // Extract JSONObject inside JSONObject
                             JSONObject countryInfo = data.getJSONObject("countryInfo");
 
-                            covidPaises.add(new CovidPais(
+                            covidPaises.add(new class_CovidPais(
                                     data.getString("country"), data.getInt("cases"),
                                     data.getString("todayCases"), data.getString("deaths"),
                                     data.getString("todayDeaths"), data.getString("recovered"),
@@ -114,10 +114,10 @@ public class CountryFragment extends Fragment {
                             ));
                         }
 
-                        // ordenar descendente
-                        Collections.sort(covidPaises, new Comparator<CovidPais>() {
+                        // ordenando descendentemente
+                        Collections.sort(covidPaises, new Comparator<class_CovidPais>() {
                             @Override
-                            public int compare(CovidPais o1, CovidPais o2) {
+                            public int compare(class_CovidPais o1, class_CovidPais o2) {
                                 if (o1.getmCases() > o2.getmCases()) {
                                     return -1;
                                 } else {
@@ -126,7 +126,7 @@ public class CountryFragment extends Fragment {
                             }
                         });
 
-                        // Action Bar Titulo
+                        // Action Bar Title
                         getActivity().setTitle(jsonArray.length() + " Paises");
 
                         showRecyclerView();
@@ -163,7 +163,7 @@ public class CountryFragment extends Fragment {
                             // Extraer JSONObject dentro JSONObject
                             JSONObject countryInfo = data.getJSONObject("countryInfo");
 
-                            covidCountries.add(new CovidCountry(
+                            covidPaises.add(new class_CovidPais(
                                     data.getString("country"), data.getInt("cases"),
                                     data.getString("todayCases"), data.getString("deaths"),
                                     data.getString("todayDeaths"), data.getString("recovered"),
@@ -172,7 +172,7 @@ public class CountryFragment extends Fragment {
                             ));
                         }
 
-                        // Action Bar Titulo
+
                         getActivity().setTitle(jsonArray.length() + " Paises");
 
                         showRecyclerView();
@@ -207,8 +207,8 @@ public class CountryFragment extends Fragment {
 
             @Override
             public boolean onQueryTextChange(String newText) {
-                if (covidPaisAdapter != null) {
-                    covidPaisAdapter.getFilter().filter(newText);
+                if (covidPaisAdaptador != null) {
+                    covidPaisAdaptador.getFilter().filter(newText);
                 }
                 return true;
             }

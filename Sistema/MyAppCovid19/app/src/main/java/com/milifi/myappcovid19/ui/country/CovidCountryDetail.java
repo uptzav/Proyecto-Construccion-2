@@ -29,17 +29,17 @@ public class CovidCountryDetail extends AppCompatActivity {
 
 
         // call Covid Country
-        CovidCountry covidCountry = getIntent().getParcelableExtra("EXTRA_COVID");
+        class_CovidPais classCovidPais = getIntent().getParcelableExtra("EXTRA_COVID");
 
         // set text view
-        tvDetailCountryName.setText(covidCountry.getmCovidCountry());
-        tvDetailTotalCases.setText(Integer.toString(covidCountry.getmCases()));
-        tvDetailTodayCases.setText(covidCountry.getmTodayCases());
-        tvDetailTotalDeaths.setText(covidCountry.getmDeaths());
-        tvDetailTodayDeaths.setText(covidCountry.getmTodayDeaths());
-        tvDetailTotalRecovered.setText(covidCountry.getmRecovered());
-        tvDetailTotalActive.setText(covidCountry.getmActive());
-        tvDetailTotalCritical.setText(covidCountry.getmCritical());
+        tvDetailCountryName.setText(classCovidPais.getmCovidCountry());
+        tvDetailTotalCases.setText(Integer.toString(classCovidPais.getmCases()));
+        tvDetailTodayCases.setText(classCovidPais.getmTodayCases());
+        tvDetailTotalDeaths.setText(classCovidPais.getmDeaths());
+        tvDetailTodayDeaths.setText(classCovidPais.getmTodayDeaths());
+        tvDetailTotalRecovered.setText(classCovidPais.getmRecovered());
+        tvDetailTotalActive.setText(classCovidPais.getmActive());
+        tvDetailTotalCritical.setText(classCovidPais.getmCritical());
 
     }
 }

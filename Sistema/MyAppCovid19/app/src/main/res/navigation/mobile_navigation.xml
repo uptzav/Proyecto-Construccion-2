@@ -13,7 +13,7 @@
 
     <fragment
         android:id="@+id/navigation_country"
-        android:name="com.milifi.myappcovid19.ui.country.CountryFragment"
+        android:name="com.milifi.myappcovid19.ui.country.class_FragmentoPais"
         android:label="@string/title_country"
         tools:layout="@layout/fragment_country" />
 </navigation>

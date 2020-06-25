@@ -21,12 +21,12 @@ import java.util.List;
 
 public class CovidCountryAdapter extends RecyclerView.Adapter<CovidCountryAdapter.ViewHolder> implements Filterable {
 
-    private List<CovidCountry> covidCountries;
-    private List<CovidCountry> covidCountriesFull;
+    private List<class_CovidPais> covidCountries;
+    private List<class_CovidPais> covidCountriesFull;
 
     private Context context;
 
-    public CovidCountryAdapter(List<CovidCountry> covidCountries, Context context) {
+    public CovidCountryAdapter(List<class_CovidPais> covidCountries, Context context) {
         this.covidCountries = covidCountries;
         this.context = context;
         covidCountriesFull = new ArrayList<>(covidCountries);
@@ -42,13 +42,13 @@ public class CovidCountryAdapter extends RecyclerView.Adapter<CovidCountryAdapte
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        CovidCountry covidCountry = covidCountries.get(position);
-        holder.tvTotalCases.setText(Integer.toString(covidCountry.getmCases()));
-        holder.tvCountryName.setText(covidCountry.getmCovidCountry());
+        class_CovidPais classCovidPais = covidCountries.get(position);
+        holder.tvTotalCases.setText(Integer.toString(classCovidPais.getmCases()));
+        holder.tvCountryName.setText(classCovidPais.getmCovidCountry());
 
         // Glide
         Glide.with(context)
-                .load(covidCountry.getmFlags())
+                .load(classCovidPais.getmFlags())
                 .apply(new RequestOptions().override(240, 160))
                 .into(holder.imgCountryFlag);
     }
@@ -78,21 +78,21 @@ public class CovidCountryAdapter extends RecyclerView.Adapter<CovidCountryAdapte
     private Filter covidCountriesFilter = new Filter() {
         @Override
         protected FilterResults performFiltering(CharSequence constraint) {
-            List<CovidCountry> filteredCovidCountry = new ArrayList<>();
+            List<class_CovidPais> filteredClassCovidPais = new ArrayList<>();
 
             if (constraint == null || constraint.length() == 0) {
-                filteredCovidCountry.addAll(covidCountriesFull);
+                filteredClassCovidPais.addAll(covidCountriesFull);
             } else {
                 String filterPattern = constraint.toString().toLowerCase().trim();
-                for (CovidCountry itemCovidCountry : covidCountriesFull) {
-                    if (itemCovidCountry.getmCovidCountry().toLowerCase().contains(filterPattern)) {
-                        filteredCovidCountry.add(itemCovidCountry);
+                for (class_CovidPais itemClassCovidPais : covidCountriesFull) {
+                    if (itemClassCovidPais.getmCovidCountry().toLowerCase().contains(filterPattern)) {
+                        filteredClassCovidPais.add(itemClassCovidPais);
                     }
                 }
             }
 
             FilterResults results = new FilterResults();
-            results.values = filteredCovidCountry;
+            results.values = filteredClassCovidPais;
             return results;
         }
 

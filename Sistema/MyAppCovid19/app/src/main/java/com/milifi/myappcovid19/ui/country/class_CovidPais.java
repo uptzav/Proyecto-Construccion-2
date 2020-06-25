@@ -2,56 +2,58 @@ package com.milifi.myappcovid19.ui.country;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-public class CovidCountry implements Parcelable {
+
+
+public class class_CovidPais implements Parcelable {
     String mCovidPais, mCasosHoy, mMuertes, mMuertesHoy, mRecuperados, mActivos, mCriticos, mBanderas;
     int mCasos;
 
-    public mCovidPais(String mCovidPais, int mCasos, String mCasosHoy, String mMuertes, String mMuertesHoy, String mRecuperados, String mActivos, String mCriticos, String mBanderas) {
+    public class_CovidPais(String mCovidPais, int mCasos, String mTodayCases, String mDeaths, String mTodayDeaths, String mRecovered, String mActive, String mCritical, String mFlags) {
         this.mCovidPais = mCovidPais;
         this.mCasos = mCasos;
-        this.mCasosHoy = mCasosHoy;
-        this.mMuertes = mMuertes;
-        this.mMuertesHoy = mMuertesHoy;
-        this.mRecuperados = mRecuperados;
-        this.mActivos = mActivos;
-        this.mCriticos = mCriticos;
-        this.mBanderas = mBanderas;
+        this.mCasosHoy = mTodayCases;
+        this.mMuertes = mDeaths;
+        this.mMuertesHoy = mTodayDeaths;
+        this.mRecuperados = mRecovered;
+        this.mActivos = mActive;
+        this.mCriticos = mCritical;
+        this.mBanderas = mFlags;
     }
 
     public String getmCovidCountry() {
-        return mCovidCountry;
+        return mCovidPais;
     }
 
     public int getmCases() {
-        return mCases;
+        return mCasos;
     }
 
     public String getmTodayCases() {
-        return mTodayCases;
+        return mCasosHoy;
     }
 
     public String getmDeaths() {
-        return mDeaths;
+        return mMuertes;
     }
 
     public String getmTodayDeaths() {
-        return mTodayDeaths;
+        return mMuertesHoy;
     }
 
     public String getmRecovered() {
-        return mRecovered;
+        return mRecuperados;
     }
 
     public String getmActive() {
-        return mActive;
+        return mActivos;
     }
 
     public String getmCritical() {
-        return mCritical;
+        return mCriticos;
     }
 
     public String getmFlags() {
-        return mFlags;
+        return mBanderas;
     }
 
 
@@ -61,7 +63,7 @@ public class CovidCountry implements Parcelable {
     }
 
     @Override
-    public void writeToParcel(Parcel dest, int banderas) {
+    public void writeToParcel(Parcel dest, int flags) {
         dest.writeString(this.mCovidPais);
         dest.writeInt(this.mCasos);
         dest.writeString(this.mCasosHoy);
@@ -73,7 +75,7 @@ public class CovidCountry implements Parcelable {
         dest.writeString(this.mBanderas);
     }
 
-    protected CovidPais(Parcel in) {
+    protected class_CovidPais(Parcel in) {
         this.mCovidPais = in.readString();
         this.mCasos = in.readInt();
         this.mCasosHoy = in.readString();
@@ -85,15 +87,15 @@ public class CovidCountry implements Parcelable {
         this.mBanderas = in.readString();
     }
 
-    public static final Creator<CovidCountry> CREATOR = new Creator<CovidCountry>() {
+    public static final Creator<class_CovidPais> CREATOR = new Creator<class_CovidPais>() {
         @Override
-        public CovidCountry createFromParcel(Parcel source) {
-            return new CovidCountry(source);
+        public class_CovidPais createFromParcel(Parcel source) {
+            return new class_CovidPais(source);
         }
 
         @Override
-        public CovidCountry[] newArray(int size) {
-            return new CovidCountry[size];
+        public class_CovidPais[] newArray(int size) {
+            return new class_CovidPais[size];
         }
     };
 }
