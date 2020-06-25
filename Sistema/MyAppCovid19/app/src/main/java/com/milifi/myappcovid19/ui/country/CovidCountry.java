@@ -2,21 +2,20 @@ package com.milifi.myappcovid19.ui.country;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-
 public class CovidCountry implements Parcelable {
-    String mCovidCountry, mTodayCases, mDeaths, mTodayDeaths, mRecovered, mActive, mCritical, mFlags;
-    int mCases;
+    String mCovidPais, mCasosHoy, mMuertes, mMuertesHoy, mRecuperados, mActivos, mCriticos, mBanderas;
+    int mCasos;
 
-    public CovidCountry(String mCovidCountry, int mCases, String mTodayCases, String mDeaths, String mTodayDeaths, String mRecovered, String mActive, String mCritical, String mFlags) {
-        this.mCovidCountry = mCovidCountry;
-        this.mCases = mCases;
-        this.mTodayCases = mTodayCases;
-        this.mDeaths = mDeaths;
-        this.mTodayDeaths = mTodayDeaths;
-        this.mRecovered = mRecovered;
-        this.mActive = mActive;
-        this.mCritical = mCritical;
-        this.mFlags = mFlags;
+    public mCovidPais(String mCovidPais, int mCasos, String mCasosHoy, String mMuertes, String mMuertesHoy, String mRecuperados, String mActivos, String mCriticos, String mBanderas) {
+        this.mCovidPais = mCovidPais;
+        this.mCasos = mCasos;
+        this.mCasosHoy = mCasosHoy;
+        this.mMuertes = mMuertes;
+        this.mMuertesHoy = mMuertesHoy;
+        this.mRecuperados = mRecuperados;
+        this.mActivos = mActivos;
+        this.mCriticos = mCriticos;
+        this.mBanderas = mBanderas;
     }
 
     public String getmCovidCountry() {
@@ -62,28 +61,28 @@ public class CovidCountry implements Parcelable {
     }
 
     @Override
-    public void writeToParcel(Parcel dest, int flags) {
-        dest.writeString(this.mCovidCountry);
-        dest.writeInt(this.mCases);
-        dest.writeString(this.mTodayCases);
-        dest.writeString(this.mDeaths);
-        dest.writeString(this.mTodayDeaths);
-        dest.writeString(this.mRecovered);
-        dest.writeString(this.mActive);
-        dest.writeString(this.mCritical);
-        dest.writeString(this.mFlags);
+    public void writeToParcel(Parcel dest, int banderas) {
+        dest.writeString(this.mCovidPais);
+        dest.writeInt(this.mCasos);
+        dest.writeString(this.mCasosHoy);
+        dest.writeString(this.mMuertes);
+        dest.writeString(this.mMuertesHoy);
+        dest.writeString(this.mRecuperados);
+        dest.writeString(this.mActivos);
+        dest.writeString(this.mCriticos);
+        dest.writeString(this.mBanderas);
     }
 
-    protected CovidCountry(Parcel in) {
-        this.mCovidCountry = in.readString();
-        this.mCases = in.readInt();
-        this.mTodayCases = in.readString();
-        this.mDeaths = in.readString();
-        this.mTodayDeaths = in.readString();
-        this.mRecovered = in.readString();
-        this.mActive = in.readString();
-        this.mCritical = in.readString();
-        this.mFlags = in.readString();
+    protected CovidPais(Parcel in) {
+        this.mCovidPais = in.readString();
+        this.mCasos = in.readInt();
+        this.mCasosHoy = in.readString();
+        this.mMuertes = in.readString();
+        this.mMuertesHoy = in.readString();
+        this.mRecuperados = in.readString();
+        this.mActivos = in.readString();
+        this.mCriticos = in.readString();
+        this.mBanderas = in.readString();
     }
 
     public static final Creator<CovidCountry> CREATOR = new Creator<CovidCountry>() {

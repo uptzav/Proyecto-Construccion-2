@@ -38,12 +38,12 @@ import java.util.List;
 
 public class CountryFragment extends Fragment {
 
-    RecyclerView rvCovidCountry;
+    RecyclerView rvCovidPais;
     ProgressBar progressBar;
-    CovidCountryAdapter covidCountryAdapter;
+    CovidPaisAdapter covidPaisAdapter;
 
     private static final String TAG = CountryFragment.class.getSimpleName();
-    List<CovidCountry> covidCountries;
+    List<CovidPais> covidPaises;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -53,16 +53,16 @@ public class CountryFragment extends Fragment {
         setHasOptionsMenu(true);
 
         // call view
-        rvCovidCountry = root.findViewById(R.id.rvCovidCountry);
+        rvCovidPais = root.findViewById(R.id.rvCovidCountry);
         progressBar = root.findViewById(R.id.progress_circular_country);
-        rvCovidCountry.setLayoutManager(new LinearLayoutManager(getActivity()));
+        rvCovidPais.setLayoutManager(new LinearLayoutManager(getActivity()));
 
-        DividerItemDecoration dividerItemDecoration = new DividerItemDecoration(rvCovidCountry.getContext(), DividerItemDecoration.VERTICAL);
+        DividerItemDecoration dividerItemDecoration = new DividerItemDecoration(rvCovidPais.getContext(), DividerItemDecoration.VERTICAL);
         dividerItemDecoration.setDrawable(ContextCompat.getDrawable(getContext(), R.drawable.line_divider));
         rvCovidCountry.addItemDecoration(dividerItemDecoration);
 
         //call list
-        covidCountries = new ArrayList<>();
+        covidPaises = new ArrayList<>();
 
         // call Volley method
         getDataFromServerSortTotalCases();
@@ -71,21 +71,21 @@ public class CountryFragment extends Fragment {
     }
 
     private void showRecyclerView() {
-        covidCountryAdapter = new CovidCountryAdapter(covidCountries, getActivity());
-        rvCovidCountry.setAdapter(covidCountryAdapter);
+        covidPaisAdapter = new CovidPaisAdapter(covidPaises, getActivity());
+        rvCovidPais.setAdapter(covidPaisAdapter);
 
-        ItemClickSupport.addTo(rvCovidCountry).setOnItemClickListener(new ItemClickSupport.OnItemClickListener() {
+        ItemClickSupport.addTo(rvCovidPais).setOnItemClickListener(new ItemClickSupport.OnItemClickListener() {
             @Override
             public void onItemClicked(RecyclerView recyclerView, int position, View v) {
-                showSelectedCovidCountry(covidCountries.get(position));
+                showSelectedCovidPais(covidPaises.get(position));
             }
         });
     }
 
-    private void showSelectedCovidCountry(CovidCountry covidCountry) {
-        Intent covidCovidCountryDetail = new Intent(getActivity(), CovidCountryDetail.class);
-        covidCovidCountryDetail.putExtra("EXTRA_COVID", covidCountry);
-        startActivity(covidCovidCountryDetail);
+    private void showSelectedCovidPais(CovidPais covidPais) {
+        Intent covidCovidPaisDetalle = new Intent(getActivity(), CovidPaisDetalle.class);
+        covidCovidPaisDetalle.putExtra("EXTRA_COVID", covidPais);
+        startActivity(covidCovidPaisDetalle);
     }
 
     private void getDataFromServerSortTotalCases() {
@@ -105,7 +105,7 @@ public class CountryFragment extends Fragment {
                             // Extract JSONObject inside JSONObject
                             JSONObject countryInfo = data.getJSONObject("countryInfo");
 
-                            covidCountries.add(new CovidCountry(
+                            covidPaises.add(new CovidPais(
                                     data.getString("country"), data.getInt("cases"),
                                     data.getString("todayCases"), data.getString("deaths"),
                                     data.getString("todayDeaths"), data.getString("recovered"),
@@ -115,9 +115,9 @@ public class CountryFragment extends Fragment {
                         }
 
                         // sort descending
-                        Collections.sort(covidCountries, new Comparator<CovidCountry>() {
+                        Collections.sort(covidPaises, new Comparator<CovidPais>() {
                             @Override
-                            public int compare(CovidCountry o1, CovidCountry o2) {
+                            public int compare(CovidPais o1, CovidPais o2) {
                                 if (o1.getmCases() > o2.getmCases()) {
                                     return -1;
                                 } else {
@@ -223,14 +223,14 @@ public class CountryFragment extends Fragment {
         switch (item.getItemId()) {
             case R.id.action_sort_alpha:
                 Toast.makeText(getContext(), "Ordenado Alfabeticamente", Toast.LENGTH_SHORT).show();
-                covidCountries.clear();
+                covidPaises.clear();
                 progressBar.setVisibility(View.VISIBLE);
                 getDataFromServerSortAlphabet();
                 return true;
 
             case R.id.action_sort_cases:
                 Toast.makeText(getContext(), "Ordenado por Total de Casos", Toast.LENGTH_SHORT).show();
-                covidCountries.clear();
+                covidPaises.clear();
                 progressBar.setVisibility(View.VISIBLE);
                 getDataFromServerSortTotalCases();
                 return true;
