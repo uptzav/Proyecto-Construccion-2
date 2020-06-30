@@ -1,3 +1,17 @@
+/*
+ * @(#)class_CovidPais.java 1.1 25/06/20
+ *
+ * UPT
+ * Construccion de Software II.
+ */
+
+/**
+ *
+ * @author
+ * @version 1.1, 25/06/20
+ * @since 1.0
+ */
+
 package com.milifi.myappcovid19.ui.country;
 
 import android.view.View;
@@ -7,7 +21,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.milifi.myappcovid19.R;
 
-public class ItemClickSupport {
+public class class_CovidItemClick {
     private final RecyclerView mRecyclerView;
     private OnItemClickListener mOnItemClickListener;
     private OnItemLongClickListener mOnItemLongClickListener;
@@ -47,22 +61,22 @@ public class ItemClickSupport {
         }
     };
 
-    private ItemClickSupport(RecyclerView recyclerView) {
+    private class_CovidItemClick(RecyclerView recyclerView) {
         mRecyclerView = recyclerView;
         mRecyclerView.setTag(R.id.item_click_support, this);
         mRecyclerView.addOnChildAttachStateChangeListener(mAttachListener);
     }
 
-    public static ItemClickSupport addTo(RecyclerView view) {
-        ItemClickSupport support = (ItemClickSupport) view.getTag(R.id.item_click_support);
+    public static class_CovidItemClick addTo(RecyclerView view) {
+        class_CovidItemClick support = (class_CovidItemClick) view.getTag(R.id.item_click_support);
         if (support == null) {
-            support = new ItemClickSupport(view);
+            support = new class_CovidItemClick(view);
         }
         return support;
     }
 
-    public static ItemClickSupport removeFrom(RecyclerView view) {
-        ItemClickSupport support = (ItemClickSupport) view.getTag(R.id.item_click_support);
+    public static class_CovidItemClick removeFrom(RecyclerView view) {
+        class_CovidItemClick support = (class_CovidItemClick) view.getTag(R.id.item_click_support);
         if (support != null) {
             support.detach(view);
         }
