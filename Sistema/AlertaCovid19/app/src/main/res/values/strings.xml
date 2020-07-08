@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AlertaCovid19</string>
+    <string name="titulo_splash">Alerta Covid-19</string>
+    <string name="splash_mensaje">Conciencia, aislamiento del hogar y consejos de salud</string>
+    <string name="retry">Atras</string>
+
+    <string name="confirmed_total">Confirmados\ntotales</string>
+
+    <string name="death_total">Bajas\ntotales</string>
+    <string name="recovered_total">Recuperados\ntotales</string>
+
+    <string name="home_bottom_dialog_title">Coronavirus COVID-19 Casos Globales</string>
+
+    <string name="search_hint">Buscar…</string>
+    <string name="menu_global_cases">Casos Globales</string>
+</resources>
