@@ -12,7 +12,7 @@
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="com.apk.alertacovid19.Activity.MenuActivity" />
+        tools:context=".Activity.MenuActivity" />
 
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
