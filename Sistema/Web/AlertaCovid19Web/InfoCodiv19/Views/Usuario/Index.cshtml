@@ -1,0 +1,524 @@
+﻿@model IEnumerable<InfoCodiv19.Models.Usuario>
+
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Basic Page Info -->
+    <meta charset="utf-8">
+    <title>Usuarios</title>
+    <!-- Site favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="~/Content/vendors/images/logofondo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="~/Content/vendors/images/logofondo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="~/Content/vendors/images/logofondo.png">
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link href="~/Content/vendors/styles/core.css" rel="stylesheet" />
+    <link href="~/Content/vendors/styles/icon-font.min.css" rel="stylesheet" />
+
+    <link href="~/Content/vendors/plugins/datatables/css/dataTables.bootstrap4.min.css" rel="stylesheet" />
+    <link href="~/Content/vendors/plugins/datatables/css/responsive.bootstrap4.min.css" rel="stylesheet" />
+
+    <link href="~/Content/vendors/styles/style.css" rel="stylesheet" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119386393-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-119386393-1');
+    </script>
+
+    <!---DataTables -->
+
+    <link href="~/Scripts/datatables/datatables.min.css" rel="stylesheet" />
+    <link href="~/Scripts/datatables/css/dataTables.semanticui.css" rel="stylesheet" />
+    <link href="~/Scripts/datatables/css/dataTables.foundation.css" rel="stylesheet" />
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+    <script src="~/Scripts/datatables/js/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/datatables/js/dataTables.bootstrap.js"></script>
+    <script src="~/Scripts/datatables/js/jquery.dataTables.min.js"></script>
+</head>
+
+
+<body>
+    <div class="header">
+        <div class="header-left">
+            <div class="menu-icon dw dw-menu"></div>
+            <div class="header-search">
+            </div>
+        </div>
+        <div class="header-right">
+            <div class="dashboard-setting user-notification">
+                <div class="dropdown">
+                    <a class="dropdown-toggle no-arrow" href="javascript:;" data-toggle="right-sidebar">
+                        <i class="dw dw-settings2"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="user-info-dropdown">
+                <div class="dropdown">
+                    <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                        <span class="user-icon">
+                            <img src="~/Content/vendors/images/photo1.jpg" alt="">
+                        </span>
+                        <span class="user-name">Administrador</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list">
+                        <a class="dropdown-item" href="~/Usuario/Cerrar"><i class="dw dw-logout"></i> Cerrar Sesión</a>
+                    </div>
+                </div>
+            </div>
+            <div class="github-link">
+                <a href="https://github.com/dropways/deskapp" target="_blank"><img src="vendors/images/github.svg" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <div class="right-sidebar">
+        <div class="sidebar-title">
+            <h3 class="weight-600 font-16 text-blue">
+                Configuraciones
+                <span class="btn-block font-weight-400 font-12">Configuraciones de Usuario</span>
+            </h3>
+            <div class="close-sidebar" data-toggle="right-sidebar-close">
+                <i class="icon-copy ion-close-round"></i>
+            </div>
+        </div>
+        <div class="right-sidebar-body customscroll">
+            <div class="right-sidebar-body-content">
+                <h4 class="weight-600 font-18 pb-10">Fondo de Encabezado</h4>
+                <div class="sidebar-btn-group pb-30 mb-10">
+                    <a href="javascript:void(0);" class="btn btn-outline-primary header-white active">White</a>
+                    <a href="javascript:void(0);" class="btn btn-outline-primary header-dark">Dark</a>
+                </div>
+                <h4 class="weight-600 font-18 pb-10">Fondo de Menú</h4>
+                <div class="sidebar-btn-group pb-30 mb-10">
+                    <a href="javascript:void(0);" class="btn btn-outline-primary sidebar-light ">White</a>
+                    <a href="javascript:void(0);" class="btn btn-outline-primary sidebar-dark active">Dark</a>
+                </div>
+                <h4 class="weight-600 font-18 pb-10">Iconos del Menú</h4>
+                <div class="sidebar-radio-group pb-10 mb-10">
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="sidebaricon-1" name="menu-dropdown-icon" class="custom-control-input" value="icon-style-1" checked="">
+                        <label class="custom-control-label" for="sidebaricon-1"><i class="fa fa-angle-down"></i></label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="sidebaricon-2" name="menu-dropdown-icon" class="custom-control-input" value="icon-style-2">
+                        <label class="custom-control-label" for="sidebaricon-2"><i class="ion-plus-round"></i></label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="sidebaricon-3" name="menu-dropdown-icon" class="custom-control-input" value="icon-style-3">
+                        <label class="custom-control-label" for="sidebaricon-3"><i class="fa fa-angle-double-right"></i></label>
+                    </div>
+                </div>
+                <h4 class="weight-600 font-18 pb-10">Lista de Iconos del Menú</h4>
+                <div class="sidebar-radio-group pb-30 mb-10">
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="sidebariconlist-1" name="menu-list-icon" class="custom-control-input" value="icon-list-style-1" checked="">
+                        <label class="custom-control-label" for="sidebariconlist-1"><i class="ion-minus-round"></i></label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="sidebariconlist-2" name="menu-list-icon" class="custom-control-input" value="icon-list-style-2">
+                        <label class="custom-control-label" for="sidebariconlist-2"><i class="fa fa-circle-o" aria-hidden="true"></i></label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="sidebariconlist-3" name="menu-list-icon" class="custom-control-input" value="icon-list-style-3">
+                        <label class="custom-control-label" for="sidebariconlist-3"><i class="dw dw-check"></i></label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="sidebariconlist-4" name="menu-list-icon" class="custom-control-input" value="icon-list-style-4" checked="">
+                        <label class="custom-control-label" for="sidebariconlist-4"><i class="icon-copy dw dw-next-2"></i></label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="sidebariconlist-5" name="menu-list-icon" class="custom-control-input" value="icon-list-style-5">
+                        <label class="custom-control-label" for="sidebariconlist-5"><i class="dw dw-fast-forward-1"></i></label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="sidebariconlist-6" name="menu-list-icon" class="custom-control-input" value="icon-list-style-6">
+                        <label class="custom-control-label" for="sidebariconlist-6"><i class="dw dw-next"></i></label>
+                    </div>
+                </div>
+                <div class="reset-options pt-30 text-center">
+                    <button class="btn btn-danger" id="reset-settings">Restablecer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="left-side-bar">
+        <div class="brand-logo">
+            <a href="index.html">
+                <img src="~/Content/vendors/images/logofondo.pngg" alt="" width="20%" class="dark-logo">
+                <img src="~/Content/vendors/images/logofondo.png" alt="" width="20%" class="light-logo">
+            </a>
+            <div class="close-sidebar" data-toggle="left-sidebar-close">
+                <i class="ion-close-round"></i>
+            </div>
+        </div>
+        <div class="menu-block customscroll">
+            <div class="sidebar-menu">
+                <ul id="accordion-menu">
+                    <li class="dropdown">
+                        <a href="~/Archivo/Index" class="dropdown-toggle">
+                            <span class="micon dw dw-house-1"></span><span class="mtext">Noticias</span>
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="~/CasoReportado/Index" class="dropdown-toggle">
+                            <span class="micon dw dw-edit2"></span><span class="mtext">Casos Reportados</span>
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="~/Donacion/Index" class="dropdown-toggle">
+                            <span class="micon dw dw-library"></span><span class="mtext">Donaciones</span>
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="~/Usuario/Index" class="dropdown-toggle">
+                            <span class="micon dw dw-user"></span><span class="mtext">Usuarios</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="mobile-menu-overlay"></div>
+
+    <div class="main-container">
+        <div class="pd-ltr-20">
+            <!-- Simple Datatable start -->
+            <div class="card-box mb-30">
+                <div class="pd-20">
+                    <h4 class="text-blue h4">Gestion de Usuarios</h4>
+                    <button type="button" class="btn float-right" data-bgcolor="#c32361" data-color="#ffffff" data-toggle="modal" data-target="#AgregarUsuario"><i class="fa fa-user-plus"></i> Nuevo Usuario</button>
+                </div>
+                <br>  <br>
+                <div class="pb-20">
+                    <table id="DataTableEspañol" class="data-table table stripe hover nowrap">
+                        <thead>
+                            <tr>
+                                <th class="table-plus datatable-nosort">Nombres</th>
+                                <th>Apellidos</th>
+                                <th>Correo</th>
+                                <th>Fecha de Registro</th>
+                                <th class="datatable-nosort">Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@item.nombre </td>
+                                    <td>@item.apellido </td>
+                                    <td>@item.correo </td>
+                                    <td>@item.fecha </td>
+
+
+                                    <td> <button type="button" id="btnedit" class="btn btn-info" onclick="Modificar( '@item.id_usuariio')">Editar </button>   </td>
+
+
+                                </tr>
+                            }
+
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Simple Datatable End -->
+            <!-- Modal Register -->
+
+            <div class="modal fade" id="AgregarUsuario" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel">Agrega Usuario</h4>
+                        </div>
+                        <div class="modal-body">
+                            <form action="/" method="post" autocomplete="off">
+                                <div class="form-horizontal">
+                                    <div class="form-group">
+                                        <label>Nombre</label>
+                                        <div class="col-md-12">
+                                            <input type="text" class="form-control" name="txtnombre" id="txtnombre" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Apellido </label>
+                                        <div class="col-md-12">
+                                            <input type="text" class="form-control" name="txtapellido" id="txtapellido" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Correo </label>
+                                        <div class="col-md-12">
+                                            <input type="email" class="form-control" name="txtcorreo" id="txtcorreo" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Clave </label>
+                                        <div class="col-md-12">
+                                            <input type="password" class="form-control" name="txtclave" id="txtclave" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-md-offset-2 col-md-12">
+                                            <button type="button" id="btnSave" class="btn btn-success btn-block ">Registrar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal fade" id="ModificarUsuario" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel">Modificar</h4>
+                        </div>
+                        <div class="modal-body">
+                            <form action="/" method="post" autocomplete="off">
+
+                                <input type="text" id="txtidusuario" name="name" />
+                                <input type="text" hidden="" id="txtcorreo1" name="name" />
+
+                                <div class="form-horizontal">
+                                    <div class="form-group">
+                                        <label>Nombre</label>
+                                        <div class="col-md-12">
+                                            <input type="text" class="form-control" name="txtnombre1" id="txtnombre1" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Apellido </label>
+                                        <div class="col-md-12">
+                                            <input type="text" class="form-control" name="txtapellido1" id="txtapellido1" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-md-offset-2 col-md-12">
+                                            <button type="button" id="btnSave1" class="btn btn-success btn-block ">Modificar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/Scripts/js/bootstrap.min.js"></script>
+
+    <script src="~/Scripts/js/demo.js"></script>
+    <script src="~/Scripts/jquery-3.5.1.js"></script>
+    <script src="~/Scripts/js/bootstrap.min.js"></script>
+    <script src="~/Content/vendors/plugins/apexcharts/apexcharts.min.js"></script>
+    <script src="~/Content/vendors/scripts/dashboard.js"></script>
+
+    <!-- js -->
+    <script src="~/Content/vendors/scripts/core.js"></script>
+    <script src="~/Content/vendors/scripts/script.min.js"></script>
+    <script src="~/Content/vendors/scripts/process.js"></script>
+    <script src="~/Content/vendors/scripts/layout-settings.js"></script>
+
+</body>
+</html>
+
+<!---DataTables -->
+<script src="~/Content/DataTables/datatables.min.js"></script>
+
+
+<script>
+    //Español
+    $(document).ready(function () {
+        $("#DataTableEspañol").DataTable({
+
+            "aLengthMenu": [[5, 10, 25, 50, 100, -1], [5, 10, 25, 50, 100, "Todos"]],
+            "bDestroy": true,
+            "language": {
+                "sProcessing": "Procesando...",
+                "sLengthMenu": "Mostrar _MENU_ registros",
+                "sZeroRecords": "No se encontraron resultados",
+                "sEmptyTable": "Ningun dato disponible en esta tabla",
+                "sInfo": "Mostrando registros del _START_ al _END_ de un total de _TOTAL_ registros",
+                "sInfoEmpty": "Mostrando registros del 0 al 0 de un total de 0 registros",
+                "sInfoFiltered": "(filtrado de un total de _MAX_ registros)",
+                "sInfoPostFix": "",
+                "sSearch": "Buscar:",
+                "sUrl": "",
+                "sInfoThousands": ",",
+                "sLoadingRecords": "Cargando...",
+                "oPaginate": {
+                    "sFirst": "Primero",
+                    "sLast": "Ultimo",
+                    "sNext": "Siguiente",
+                    "sPrevious": "Anterior"
+                },
+                "oAria": {
+                    "sSortAscending": ": Activar para ordenar la columna de manera ascendente",
+                    "sSortDescending": ": Activar para ordenar la columna de manera descendente"
+                }
+            }
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        //  listaUsuaruios();
+    })
+
+    function listaUsuaruios() {
+        //  alert("hola");
+        $.ajax({
+
+            type: "GET",
+            url: '/Usuario/Get_Usuarios/',
+            contentType: "application/json",
+            success: function (data) {
+                console.log(data);
+                var rows = '';
+                $.each(data, function (i, item) {
+                    rows += "<tr>"
+                    rows += "<td>" + item.nombre + "</td>"
+                    rows += "<td>" + item.apellido + "</td>"
+                    rows += "<td>" + item.correo + "</td>"
+                    rows += "<td>" + item.fecha + "</td>"
+                    rows += "<td> <button type='button' id='btnedit' class='btn btn-info' onclick='Modificar(/" + item.id_usuariio + "/)' >Editar </button>   </td>"
+
+                    rows += "</tr>";
+                    $("#DataTableEspañol tbody").html(rows);
+                });
+            }
+
+        })
+
+        $("#tabla").DataTable({
+            "language": {
+                "lengthMenu": "Display _MENU_ records per page",
+                "zeroRecords": "Nothing found - sorry",
+                "info": "Showing page _PAGE_ of _PAGES_",
+                "infoEmpty": "No records available",
+
+
+                "infoFiltered": "(filtered from _MAX_ total records)"
+
+
+            }
+        });
+    }
+
+
+
+    $("#btnSave").click(function (e) {
+
+        var data = {
+
+            nombre: $("#txtnombre").val(),
+            apellido: $("#txtapellido").val(),
+            correo: $("#txtcorreo").val(),
+            clave: $("#txtclave").val()
+
+        }
+
+        $.ajax({
+            url: '/Usuario/Save_Usuario/',
+            type: 'POST',
+            dataType: 'json',
+            data: data,
+            success: function (data) {
+                console.log(data);
+                alert("Se ha agregado el registro exitosamente");
+                $("#AgregarUsuario").modal('hide');
+                listaUsuaruios();
+
+            },
+            error: function (err) {
+                alert("Error: " + err.responseText);
+            }
+        })
+
+
+    });
+
+    function Modificar(id_usu) {
+
+        var id_usuario = String(id_usu).replace(/\/+/g, "");
+
+        $.ajax({
+            url: '/Usuario/GET/?id_usu=' + id_usu,
+            type: 'GET',
+            dataType: 'json',
+
+            success: function (data) {
+
+                console.log(data);
+                $("#txtidusuario").val(data.id_usuariio);
+                $("#txtcorreo1").val(data.correo);
+                $("#txtnombre1").val(data.nombre);
+                $("#txtapellido1").val(data.apellido);
+
+                $("#ModificarUsuario").modal('show');
+                // listaUsuaruios();
+
+            },
+            error: function (err) {
+                alert("Error: " + err.responseText);
+            }
+        })
+
+
+    }
+
+
+    $("#btnSave1").click(function (e) {
+
+        var data = {
+            id_usuariio: $("#txtidusuario").val(),
+            nombre: $("#txtnombre1").val(),
+            apellido: $("#txtapellido1").val(),
+            correo: $("#txtcorreo1").val()
+
+        }
+
+        $.ajax({
+            url: '/Usuario/Modiciar_Usuario/',
+            type: 'POST',
+            dataType: 'json',
+            data: data,
+            success: function (data) {
+                console.log(data);
+                alert("Modificado");
+                $("#ModificarUsuario").modal('hide');
+                // listaUsuaruios();
+
+            },
+            error: function (err) {
+                alert("Error: " + err.responseText);
+            }
+        })
+
+
+    });
+
+
+    $(document).ready(function () {
+
+    });
+</script>

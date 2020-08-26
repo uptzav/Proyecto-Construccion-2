@@ -1,0 +1,696 @@
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\InfoCodiv19.dll.config
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\InfoCodiv19.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\InfoCodiv19.pdb
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\csc.exe
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\csc.exe.config
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\csc.rsp
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\csi.exe
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\csi.exe.config
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\csi.rsp
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\System.AppContext.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\System.Collections.Immutable.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\System.Console.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\System.Globalization.Calendars.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\System.IO.Compression.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\System.IO.FileSystem.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\System.Net.Http.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\System.Net.Sockets.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\System.Reflection.Metadata.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\System.ValueTuple.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\System.Xml.XPath.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\vbc.exe
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\vbc.exe.config
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\vbc.rsp
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\VBCSCompiler.exe
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\roslyn\VBCSCompiler.exe.config
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\Microsoft.Web.Infrastructure.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\System.Web.Helpers.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\System.Web.Mvc.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\System.Web.Razor.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\System.Web.Webpages.Deployment.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\System.Web.Webpages.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\System.Web.Webpages.Razor.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\System.Web.Razor.xml
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\System.Web.Webpages.xml
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\System.Web.Webpages.Deployment.xml
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\System.Web.Webpages.Razor.xml
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\System.Web.Helpers.xml
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\System.Web.Mvc.xml
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\es\System.Web.Razor.resources.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\es\System.Web.Webpages.resources.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\es\System.Web.Webpages.Deployment.resources.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\es\System.Web.Webpages.Razor.resources.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\es\System.Web.Helpers.resources.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\es\System.Web.Mvc.resources.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\obj\Debug\InfoCodiv19.csprojAssemblyReference.cache
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\obj\Debug\InfoCodiv19.csproj.CoreCompileInputs.cache
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\obj\Debug\InfoCodiv19.csproj.CopyComplete
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\obj\Debug\InfoCodiv19.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\obj\Debug\InfoCodiv19.pdb
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\Firebase.Auth.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\Firebase.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\Firebase.Storage.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\FireSharp.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\LiteDB.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\Microsoft.Threading.Tasks.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\Microsoft.Threading.Tasks.Extensions.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\Newtonsoft.Json.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\System.Net.Http.Extensions.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\System.Net.Http.Primitives.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\System.Reactive.dll
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\Firebase.xml
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\LiteDB.xml
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\Microsoft.Threading.Tasks.xml
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\Microsoft.Threading.Tasks.Extensions.xml
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\Newtonsoft.Json.xml
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\System.Net.Http.Extensions.xml
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\System.Net.Http.Primitives.xml
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\bin\System.Reactive.xml
+D:\Disco local\disco\MirellaFiorella\InfoCodiv19\InfoCodiv19\obj\Debug\InfoCodiv19.csproj.App.config
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\InfoCodiv19.dll.config
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\InfoCodiv19.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\InfoCodiv19.pdb
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\csc.exe
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\csc.exe.config
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\csc.rsp
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\csi.exe
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\csi.exe.config
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\csi.rsp
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\System.AppContext.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\System.Console.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\System.IO.Compression.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\System.Net.Http.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\System.ValueTuple.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\vbc.exe
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\vbc.exe.config
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\vbc.rsp
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\VBCSCompiler.exe
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\Microsoft.Win32.Primitives.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\netstandard.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.AppContext.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Collections.Concurrent.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Collections.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Collections.NonGeneric.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Collections.Specialized.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.ComponentModel.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.ComponentModel.Primitives.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Console.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Data.Common.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Diagnostics.Contracts.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Diagnostics.Debug.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Diagnostics.Process.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Diagnostics.StackTrace.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Diagnostics.Tools.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Diagnostics.TraceSource.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Diagnostics.Tracing.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Drawing.Primitives.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Dynamic.Runtime.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Globalization.Calendars.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Globalization.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Globalization.Extensions.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.IO.Compression.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.IO.Compression.ZipFile.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.IO.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.IO.FileSystem.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.IO.IsolatedStorage.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.IO.Pipes.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Linq.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Linq.Expressions.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Linq.Parallel.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Linq.Queryable.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Net.Http.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Net.NameResolution.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Net.NetworkInformation.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Net.Ping.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Net.Primitives.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Net.Requests.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Net.Security.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Net.Sockets.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Net.WebHeaderCollection.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Net.WebSockets.Client.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Net.WebSockets.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.ObjectModel.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Reflection.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Reflection.Extensions.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Reflection.Primitives.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Resources.Reader.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Resources.ResourceManager.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Resources.Writer.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Runtime.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Runtime.Extensions.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Runtime.Handles.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Runtime.InteropServices.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Runtime.Numerics.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Runtime.Serialization.Json.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Security.Claims.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Security.Cryptography.Csp.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Security.Principal.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Security.SecureString.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Text.Encoding.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Text.Encoding.Extensions.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Text.RegularExpressions.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Threading.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Threading.Overlapped.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Threading.Tasks.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Threading.Thread.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Threading.ThreadPool.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Threading.Timer.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.ValueTuple.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Xml.ReaderWriter.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Xml.XDocument.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Xml.XmlDocument.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Xml.XmlSerializer.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Xml.XPath.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Xml.XPath.XDocument.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\Firebase.Auth.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\Firebase.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\Firebase.Storage.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\FireSharp.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\LiteDB.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\Microsoft.Threading.Tasks.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\Newtonsoft.Json.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Net.Http.Extensions.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Net.Http.Primitives.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Reactive.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Web.Helpers.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Web.Mvc.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Web.Razor.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Web.Webpages.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Web.Webpages.Razor.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\Firebase.xml
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\LiteDB.xml
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\Microsoft.Threading.Tasks.xml
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\Newtonsoft.Json.xml
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Net.Http.Extensions.xml
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Net.Http.Primitives.xml
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Reactive.xml
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Web.Razor.xml
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Web.Webpages.xml
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Web.Webpages.Razor.xml
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Web.Helpers.xml
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\System.Web.Mvc.xml
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\es\System.Web.Razor.resources.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\es\System.Web.Webpages.resources.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\obj\Debug\InfoCodiv19.csproj.App.config
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\obj\Debug\InfoCodiv19.csprojAssemblyReference.cache
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\obj\Debug\InfoCodiv19.csproj.CoreCompileInputs.cache
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\obj\Debug\InfoCodiv19.csproj.CopyComplete
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\obj\Debug\InfoCodiv19.dll
+C:\Users\Equipo\Desktop\COSTRUCCION2_PROYECTO\proeyctpAspCovid-master\InfoCodiv19\obj\Debug\InfoCodiv19.pdb
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\InfoCodiv19.dll.config
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\InfoCodiv19.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\InfoCodiv19.pdb
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\csc.exe
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\csc.exe.config
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\csc.rsp
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\csi.exe
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\csi.exe.config
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\csi.rsp
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.AppContext.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Collections.Immutable.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Console.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Globalization.Calendars.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.IO.Compression.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.IO.FileSystem.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Net.Http.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Net.Sockets.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Reflection.Metadata.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.ValueTuple.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Xml.XPath.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\vbc.exe
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\vbc.exe.config
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\vbc.rsp
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\VBCSCompiler.exe
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\roslyn\VBCSCompiler.exe.config
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\Microsoft.Win32.Primitives.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\netstandard.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.AppContext.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Collections.Concurrent.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Collections.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Collections.NonGeneric.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Collections.Specialized.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.ComponentModel.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.ComponentModel.EventBasedAsync.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.ComponentModel.Primitives.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.ComponentModel.TypeConverter.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Console.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Data.Common.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Diagnostics.Contracts.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Diagnostics.Debug.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Diagnostics.FileVersionInfo.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Diagnostics.Process.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Diagnostics.StackTrace.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Diagnostics.TextWriterTraceListener.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Diagnostics.Tools.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Diagnostics.TraceSource.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Diagnostics.Tracing.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Drawing.Primitives.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Dynamic.Runtime.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Globalization.Calendars.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Globalization.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Globalization.Extensions.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.IO.Compression.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.IO.Compression.ZipFile.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.IO.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.IO.FileSystem.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.IO.FileSystem.DriveInfo.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.IO.FileSystem.Primitives.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.IO.FileSystem.Watcher.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.IO.IsolatedStorage.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.IO.MemoryMappedFiles.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.IO.Pipes.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.IO.UnmanagedMemoryStream.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Linq.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Linq.Expressions.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Linq.Parallel.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Linq.Queryable.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Net.Http.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Net.NameResolution.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Net.NetworkInformation.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Net.Ping.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Net.Primitives.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Net.Requests.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Net.Security.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Net.Sockets.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Net.WebHeaderCollection.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Net.WebSockets.Client.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Net.WebSockets.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.ObjectModel.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Reflection.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Reflection.Extensions.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Reflection.Primitives.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Resources.Reader.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Resources.ResourceManager.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Resources.Writer.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Runtime.CompilerServices.VisualC.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Runtime.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Runtime.Extensions.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Runtime.Handles.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Runtime.InteropServices.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Runtime.Numerics.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Runtime.Serialization.Formatters.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Runtime.Serialization.Json.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Runtime.Serialization.Primitives.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Runtime.Serialization.Xml.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Security.Claims.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Security.Cryptography.Algorithms.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Security.Cryptography.Csp.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Security.Cryptography.Encoding.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Security.Cryptography.Primitives.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Security.Cryptography.X509Certificates.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Security.Principal.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Security.SecureString.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Text.Encoding.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Text.Encoding.Extensions.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Text.RegularExpressions.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Threading.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Threading.Overlapped.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Threading.Tasks.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Threading.Tasks.Parallel.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Threading.Thread.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Threading.ThreadPool.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Threading.Timer.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.ValueTuple.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Xml.ReaderWriter.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Xml.XDocument.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Xml.XmlDocument.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Xml.XmlSerializer.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Xml.XPath.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Xml.XPath.XDocument.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\Firebase.Auth.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\Firebase.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\Firebase.Storage.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\FireSharp.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\LiteDB.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\Microsoft.Threading.Tasks.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\Microsoft.Threading.Tasks.Extensions.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\Microsoft.Web.Infrastructure.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\Newtonsoft.Json.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Net.Http.Extensions.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Net.Http.Primitives.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Reactive.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Web.Helpers.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Web.Mvc.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Web.Razor.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Web.Webpages.Deployment.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Web.Webpages.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Web.Webpages.Razor.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\Firebase.xml
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\LiteDB.xml
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\Microsoft.Threading.Tasks.xml
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\Microsoft.Threading.Tasks.Extensions.xml
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\Newtonsoft.Json.xml
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Net.Http.Extensions.xml
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Net.Http.Primitives.xml
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Reactive.xml
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Web.Razor.xml
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Web.Webpages.xml
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Web.Webpages.Deployment.xml
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Web.Webpages.Razor.xml
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Web.Helpers.xml
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\System.Web.Mvc.xml
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\es\System.Web.Razor.resources.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\es\System.Web.Webpages.resources.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\es\System.Web.Webpages.Deployment.resources.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\es\System.Web.Webpages.Razor.resources.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\es\System.Web.Helpers.resources.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\bin\es\System.Web.Mvc.resources.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\obj\Debug\InfoCodiv19.csproj.App.config
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\obj\Debug\InfoCodiv19.csprojAssemblyReference.cache
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\obj\Debug\InfoCodiv19.csproj.CoreCompileInputs.cache
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\obj\Debug\InfoCodiv19.csproj.CopyComplete
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\obj\Debug\InfoCodiv19.dll
+D:\Disco local\disco\PROYECTO-MIRELLA-FIORELA\AlertaCovid19Web\InfoCodiv19\obj\Debug\InfoCodiv19.pdb
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\InfoCodiv19.dll.config
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\InfoCodiv19.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\InfoCodiv19.pdb
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\csc.exe
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\csc.exe.config
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\csc.rsp
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\csi.exe
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\csi.exe.config
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\csi.rsp
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.AppContext.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Console.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.IO.Compression.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Net.Http.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.ValueTuple.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\vbc.exe
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\vbc.exe.config
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\vbc.rsp
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\VBCSCompiler.exe
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\Microsoft.Win32.Primitives.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\netstandard.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.AppContext.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Collections.Concurrent.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Collections.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Collections.NonGeneric.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Collections.Specialized.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.ComponentModel.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.ComponentModel.Primitives.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Console.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Data.Common.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Diagnostics.Contracts.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Diagnostics.Debug.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Diagnostics.Process.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Diagnostics.StackTrace.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Diagnostics.Tools.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Diagnostics.TraceSource.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Diagnostics.Tracing.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Drawing.Primitives.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Dynamic.Runtime.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Globalization.Calendars.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Globalization.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Globalization.Extensions.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.IO.Compression.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.IO.Compression.ZipFile.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.IO.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.IO.FileSystem.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.IO.IsolatedStorage.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.IO.Pipes.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Linq.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Linq.Expressions.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Linq.Parallel.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Linq.Queryable.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Net.Http.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Net.NameResolution.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Net.NetworkInformation.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Net.Ping.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Net.Primitives.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Net.Requests.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Net.Security.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Net.Sockets.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Net.WebHeaderCollection.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Net.WebSockets.Client.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Net.WebSockets.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.ObjectModel.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Reflection.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Reflection.Extensions.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Reflection.Primitives.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Resources.Reader.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Resources.ResourceManager.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Resources.Writer.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Runtime.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Runtime.Extensions.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Runtime.Handles.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Runtime.InteropServices.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Runtime.Numerics.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Runtime.Serialization.Json.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Security.Claims.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Security.Cryptography.Csp.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Security.Principal.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Security.SecureString.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Text.Encoding.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Text.Encoding.Extensions.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Text.RegularExpressions.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Threading.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Threading.Overlapped.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Threading.Tasks.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Threading.Thread.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Threading.ThreadPool.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Threading.Timer.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.ValueTuple.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Xml.ReaderWriter.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Xml.XDocument.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Xml.XmlDocument.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Xml.XmlSerializer.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Xml.XPath.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Xml.XPath.XDocument.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\Firebase.Auth.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\Firebase.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\Firebase.Storage.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\FireSharp.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\LiteDB.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\Microsoft.Threading.Tasks.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\Newtonsoft.Json.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Net.Http.Extensions.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Net.Http.Primitives.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Reactive.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Web.Helpers.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Web.Mvc.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Web.Razor.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Web.Webpages.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Web.Webpages.Razor.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\Firebase.xml
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\LiteDB.xml
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\Microsoft.Threading.Tasks.xml
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\Newtonsoft.Json.xml
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Net.Http.Extensions.xml
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Net.Http.Primitives.xml
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Reactive.xml
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Web.Razor.xml
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Web.Webpages.xml
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Web.Webpages.Razor.xml
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Web.Helpers.xml
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\System.Web.Mvc.xml
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\es\System.Web.Razor.resources.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\es\System.Web.Webpages.resources.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\obj\Debug\InfoCodiv19.csproj.App.config
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\obj\Debug\InfoCodiv19.csprojAssemblyReference.cache
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\obj\Debug\InfoCodiv19.csproj.CoreCompileInputs.cache
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\obj\Debug\InfoCodiv19.csproj.CopyComplete
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\obj\Debug\InfoCodiv19.dll
+C:\Users\Equipo\Desktop\ProyectoFiorella-Mirella\AlertaCovid19Web\InfoCodiv19\obj\Debug\InfoCodiv19.pdb

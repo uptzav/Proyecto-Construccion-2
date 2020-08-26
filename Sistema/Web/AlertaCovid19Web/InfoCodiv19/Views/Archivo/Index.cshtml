@@ -1,0 +1,556 @@
+﻿@model IEnumerable<InfoCodiv19.Models.Noticias>
+
+
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Basic Page Info -->
+    <meta charset="utf-8">
+    <title>Inicio | Noticias</title>
+    <!-- Site favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="~/Content/vendors/images/logofondo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="~/Content/vendors/images/logofondo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="~/Content/vendors/images/logofondo.png">
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link href="~/Content/vendors/styles/core.css" rel="stylesheet" />
+    <link href="~/Content/vendors/styles/icon-font.min.css" rel="stylesheet" />
+
+    <link href="~/Content/vendors/plugins/datatables/css/dataTables.bootstrap4.min.css" rel="stylesheet" />
+    <link href="~/Content/vendors/plugins/datatables/css/responsive.bootstrap4.min.css" rel="stylesheet" />
+
+    <link href="~/Content/vendors/styles/style.css" rel="stylesheet" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119386393-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-119386393-1');
+    </script>
+
+    <!---DataTables -->
+
+    <link href="~/Scripts/datatables/datatables.min.css" rel="stylesheet" />
+    <link href="~/Scripts/datatables/css/dataTables.semanticui.css" rel="stylesheet" />
+    <link href="~/Scripts/datatables/css/dataTables.foundation.css" rel="stylesheet" />
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+    <script src="~/Scripts/datatables/js/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/datatables/js/dataTables.bootstrap.js"></script>
+    <script src="~/Scripts/datatables/js/jquery.dataTables.min.js"></script>
+</head>
+
+
+<body>
+    <div class="pre-loader">
+        <div class="pre-loader-box">
+            <center><div class="loader-logo"><img src="~/Content/vendors/images/logofondo.png" width="10%" height="20%" alt=""></div></center>
+            <div class='loader-progress' id="progress_div">
+                <div class='bar' id='bar1'></div>
+            </div>
+            <div class='percent' id='percent1'>0%</div>
+            <div class="loading-text">
+                Cargando...
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="header-left">
+            <div class="menu-icon dw dw-menu"></div>
+            <div class="header-search">
+            </div>
+        </div>
+        <div class="header-right">
+            <div class="dashboard-setting user-notification">
+                <div class="dropdown">
+                    <a class="dropdown-toggle no-arrow" href="javascript:;" data-toggle="right-sidebar">
+                        <i class="dw dw-settings2"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="user-info-dropdown">
+                <div class="dropdown">
+                    <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                        <span class="user-icon">
+                            <img src="~/Content/vendors/images/photo1.jpg" alt="">
+                        </span>
+                        <span class="user-name">Administrador</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list">
+                        <a class="dropdown-item" href="~/Usuario/Cerrar"><i class="dw dw-logout"></i> Cerrar Sesión</a>
+                    </div>
+                </div>
+            </div>
+            <div class="github-link">
+                <a href="https://github.com/dropways/deskapp" target="_blank"><img src="vendors/images/github.svg" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <div class="right-sidebar">
+        <div class="sidebar-title">
+            <h3 class="weight-600 font-16 text-blue">
+                Configuraciones
+                <span class="btn-block font-weight-400 font-12">Configuraciones de Usuario</span>
+            </h3>
+            <div class="close-sidebar" data-toggle="right-sidebar-close">
+                <i class="icon-copy ion-close-round"></i>
+            </div>
+        </div>
+        <div class="right-sidebar-body customscroll">
+            <div class="right-sidebar-body-content">
+                <h4 class="weight-600 font-18 pb-10">Fondo de Encabezado</h4>
+                <div class="sidebar-btn-group pb-30 mb-10">
+                    <a href="javascript:void(0);" class="btn btn-outline-primary header-white active">White</a>
+                    <a href="javascript:void(0);" class="btn btn-outline-primary header-dark">Dark</a>
+                </div>
+                <h4 class="weight-600 font-18 pb-10">Fondo de Menú</h4>
+                <div class="sidebar-btn-group pb-30 mb-10">
+                    <a href="javascript:void(0);" class="btn btn-outline-primary sidebar-light ">White</a>
+                    <a href="javascript:void(0);" class="btn btn-outline-primary sidebar-dark active">Dark</a>
+                </div>
+                <h4 class="weight-600 font-18 pb-10">Iconos del Menú</h4>
+                <div class="sidebar-radio-group pb-10 mb-10">
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="sidebaricon-1" name="menu-dropdown-icon" class="custom-control-input" value="icon-style-1" checked="">
+                        <label class="custom-control-label" for="sidebaricon-1"><i class="fa fa-angle-down"></i></label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="sidebaricon-2" name="menu-dropdown-icon" class="custom-control-input" value="icon-style-2">
+                        <label class="custom-control-label" for="sidebaricon-2"><i class="ion-plus-round"></i></label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="sidebaricon-3" name="menu-dropdown-icon" class="custom-control-input" value="icon-style-3">
+                        <label class="custom-control-label" for="sidebaricon-3"><i class="fa fa-angle-double-right"></i></label>
+                    </div>
+                </div>
+                <h4 class="weight-600 font-18 pb-10">Lista de Iconos del Menú</h4>
+                <div class="sidebar-radio-group pb-30 mb-10">
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="sidebariconlist-1" name="menu-list-icon" class="custom-control-input" value="icon-list-style-1" checked="">
+                        <label class="custom-control-label" for="sidebariconlist-1"><i class="ion-minus-round"></i></label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="sidebariconlist-2" name="menu-list-icon" class="custom-control-input" value="icon-list-style-2">
+                        <label class="custom-control-label" for="sidebariconlist-2"><i class="fa fa-circle-o" aria-hidden="true"></i></label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="sidebariconlist-3" name="menu-list-icon" class="custom-control-input" value="icon-list-style-3">
+                        <label class="custom-control-label" for="sidebariconlist-3"><i class="dw dw-check"></i></label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="sidebariconlist-4" name="menu-list-icon" class="custom-control-input" value="icon-list-style-4" checked="">
+                        <label class="custom-control-label" for="sidebariconlist-4"><i class="icon-copy dw dw-next-2"></i></label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="sidebariconlist-5" name="menu-list-icon" class="custom-control-input" value="icon-list-style-5">
+                        <label class="custom-control-label" for="sidebariconlist-5"><i class="dw dw-fast-forward-1"></i></label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="sidebariconlist-6" name="menu-list-icon" class="custom-control-input" value="icon-list-style-6">
+                        <label class="custom-control-label" for="sidebariconlist-6"><i class="dw dw-next"></i></label>
+                    </div>
+                </div>
+                <div class="reset-options pt-30 text-center">
+                    <button class="btn btn-danger" id="reset-settings">Restablecer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="left-side-bar">
+        <div class="brand-logo">
+            <a href="index.html">
+                <img src="~/Content/vendors/images/logofondo.pngg" alt="" width="20%" class="dark-logo">
+                <img src="~/Content/vendors/images/logofondo.png" alt="" width="20%" class="light-logo">
+            </a>
+            <div class="close-sidebar" data-toggle="left-sidebar-close">
+                <i class="ion-close-round"></i>
+            </div>
+        </div>
+        <div class="menu-block customscroll">
+            <div class="sidebar-menu">
+                <ul id="accordion-menu">
+                    <li class="dropdown">
+                        <a href="~/Archivo/Index" class="dropdown-toggle">
+                            <span class="micon dw dw-house-1"></span><span class="mtext">Noticias</span>
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="~/CasoReportado/Index" class="dropdown-toggle">
+                            <span class="micon dw dw-edit2"></span><span class="mtext">Casos Reportados</span>
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="~/Donacion/Index" class="dropdown-toggle">
+                            <span class="micon dw dw-library"></span><span class="mtext">Donaciones</span>
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="~/Usuario/Index" class="dropdown-toggle">
+                            <span class="micon dw dw-user"></span><span class="mtext">Usuarios</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="mobile-menu-overlay"></div>
+
+    <div class="main-container">
+        <div class="pd-ltr-20">
+            <div class="card-box pd-20 height-100-p mb-30">
+                <div class="row align-items-center">
+                    <div class="col-md-4">
+                        <img src="~/Content/vendors/images/banner-img.png" alt="">
+                    </div>
+                    <div class="col-md-8">
+                        <h4 class="font-20 weight-500 mb-10 text-capitalize">
+                            Bienvenido <div class="weight-600 font-30 text-blue">Administrador!</div>
+                        </h4>
+                        <p class="font-18 max-width-600">Sistema Web de gestión de la "APLICACIÓN MÓVIL PARA EL SEGUIMIENTO MUNDIAL DE CASOS DE COVID-19 CON DATOS EN TIEMPO REAL"</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Simple Datatable start -->
+            <div class="card-box mb-30">
+                <div class="pd-20">
+                    <h4 class="text-blue h4">Noticias</h4>
+                    <button type="button" class="btn float-right" data-bgcolor="#c32361" data-color="#ffffff" data-toggle="modal" data-target="#AgregarNoticia"><i class="fa fa-newspaper-o"></i> Nuevo Noticia</button>
+                </div>
+                <br>  <br>
+                <div class="pb-20">
+                    <table id="DataTableEspañol" class="data-table table stripe hover nowrap table-responsive">
+                        <thead>
+                            <tr>
+                                <th class="table-plus datatable-nosort">Descripción</th>
+                                <th>Fecha</th>
+                                <th>Foto</th>
+                                <th class="datatable-nosort">Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td> @item.descripcion</td>
+                                    <td> @item.fecha</td>
+                                    <td> <img src="@item.ruta" width="50" /> </td>
+
+
+                                    <td> <button type="button" id="btnedit" class="btn btn-info" onclick="modificar( '@item.key' )">Editar </button>  <button type="button" id="btneliminar" onclick="eliminar( '@item.key' )" class="btn btn-info">Eliminar </button>    </td>
+                                </tr>
+
+
+                            }
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Simple Datatable End -->
+            <!-- Modal Register -->
+            <div class="modal fade" id="AgregarNoticia" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" style="display: none;" aria-hidden="true">
+                <div class="modal-dialog modal-xl" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Noticia</h5>
+                            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-xl-4">
+                                    <div class="card">
+                                        <div class="card-header">Imagen Producto</div>
+                                        <div class="card-body text-center">
+                                            <img class="borrar" id="imgFoto" width="100" height="100" style="border: 1px solid" />
+                                            <div class="small font-italic text-muted mb-4">Recomendación 300x300</div>
+                                            <div class="">
+                                                <input type="file" class="borrar form-control" id="fileToUpload">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-8">
+                                    <div class="card mb-4">
+                                        <div class="card-header">Agregar Noticia</div>
+                                        <div class="card-body">
+                                            <form action="/" method="post">
+
+                                                <div class="form-group">
+                                                    <label>Descripcion</label>
+                                                    <input class="borrar form-control" id="txtdescripcion" type="text" placeholder="Descripcion">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button id="btnCancelar" type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                <button type="button" id="btnSave" class="btn btn-success">Aceptar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Register -->
+            <div class="modal fade" id="ModificarNoticia" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" style="display: none;" aria-hidden="true">
+                <div class="modal-dialog modal-xl" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Noticia</h5>
+                            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-xl-4">
+                                    <div class="card">
+                                        <div class="card-header">Imagen Noticia</div>
+                                        <div class="card-body text-center">
+                                            <input type="text" hidden="" id="keynoticia" width="100" />
+                                            <img class="borrar" id="imgFoto" width="100" height="100" style="border: 1px solid" />
+                                            <div class="small font-italic text-muted mb-4">Recomendación 300x300</div>
+                                            <div class="">
+                                                <input type="file" class="borrar form-control" id="fileToUpload1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-8">
+                                    <div class="card mb-4">
+                                        <div class="card-header">Modicar Noticia</div>
+                                        <div class="card-body">
+                                            <form action="/" method="post">
+                                                <div class="form-group">
+                                                    <label>Descripcion</label>
+                                                    <input class="borrar form-control" id="txtdescripcion1" type="text" placeholder="Descripcion">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button id="btnCancelar" type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                <button type="button" id="btnSave1" class="btn btn-success">Aceptar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="~/Scripts/js/demo.js"></script>
+<script src="~/Scripts/jquery-3.5.1.js"></script>
+<script src="~/Scripts/js/bootstrap.min.js"></script>
+<script src="~/Content/vendors/plugins/apexcharts/apexcharts.min.js"></script>
+<script src="~/Content/vendors/scripts/dashboard.js"></script>
+
+
+<!-- js -->
+<script src="~/Content/vendors/scripts/core.js"></script>
+<script src="~/Content/vendors/scripts/script.min.js"></script>
+<script src="~/Content/vendors/scripts/process.js"></script>
+<script src="~/Content/vendors/scripts/layout-settings.js"></script>
+
+
+<!---DataTables -->
+<script src="~/Content/DataTables/datatables.min.js"></script>
+
+<script>
+    //Español
+    $(document).ready(function () {
+        $("#DataTableEspañol").DataTable({
+
+            "aLengthMenu": [[5, 10, 25, 50, 100, -1], [5, 10, 25, 50, 100, "Todos"]],
+            "bDestroy": true,
+            "language": {
+                "sProcessing": "Procesando...",
+                "sLengthMenu": "Mostrar _MENU_ registros",
+                "sZeroRecords": "No se encontraron resultados",
+                "sEmptyTable": "Ningun dato disponible en esta tabla",
+                "sInfo": "Mostrando registros del _START_ al _END_ de un total de _TOTAL_ registros",
+                "sInfoEmpty": "Mostrando registros del 0 al 0 de un total de 0 registros",
+                "sInfoFiltered": "(filtrado de un total de _MAX_ registros)",
+                "sInfoPostFix": "",
+                "sSearch": "Buscar:",
+                "sUrl": "",
+                "sInfoThousands": ",",
+                "sLoadingRecords": "Cargando...",
+                "oPaginate": {
+                    "sFirst": "Primero",
+                    "sLast": "Ultimo",
+                    "sNext": "Siguiente",
+                    "sPrevious": "Anterior"
+                },
+                "oAria": {
+                    "sSortAscending": ": Activar para ordenar la columna de manera ascendente",
+                    "sSortDescending": ": Activar para ordenar la columna de manera descendente"
+                }
+            }
+        });
+    });
+</script>
+
+<script>
+
+    $(document).ready(function () {
+        // listaNoticias();
+    })
+
+    function listaNoticias() {
+        //  alert("hola");
+        $.ajax({
+
+            type: "GET",
+            url: '/Archivo/Get_Noticias/',
+            contentType: "application/json",
+            success: function (data) {
+                console.log(data);
+                var rows = '';
+                $.each(data, function (i, item) {
+                    rows += "<tr>"
+                    rows += "<td>" + item.descripcion + "</td>"
+                    rows += "<td>" + item.fecha + "</td>"
+                    rows += "<td class='table - plus'> <img src= " + item.ruta + "  width='50%' >  </td>"
+
+                    rows += "<td> <button type='button' id='btnedit' class='btn btn-info' onclick='modificar(/" + item.key + "/)' >Editar </button>  <button type='button' id='btneliminar' onclick='eliminar(/" + item.key + "/)' class='btn btn-info' '>Eliminar </button>    </td>"
+
+                    rows += "</tr>";
+                    rows += "</tr>";
+                    $("#DataTableEspañol tbody").html(rows);
+                });
+            }
+
+        })
+    }
+
+    function modificar(key_noticia) {
+        var id_c = String(key_noticia).replace(/\/+/g, "");
+        $("#keynoticia").val(id_c);
+        $("#ModificarNoticia").modal("show");
+
+    }
+
+
+    $("#btnSave").click(function () {
+
+        if (window.FormData == undefined)
+            alert("Error: FormData is undefined");
+
+        else {
+
+
+            var fileData = new FormData();
+            // para los productos
+            var fileUpload = $("#fileToUpload").get(0);
+            var descripcion = $("#txtdescripcion").val();
+
+            var files = fileUpload.files;
+            fileData.append(files[0].name, files[0]);
+            fileData.append("txtdescripcion", descripcion);
+
+            $.ajax({
+                url: '/Archivo/CreateNoticia',
+                type: 'post',
+                datatype: 'json',
+                contentType: false,
+                processData: false,
+                async: false,
+                data: fileData,
+                success: function (response) {
+
+                    $("#AgregarNoticia").modal("hide");
+                    alert("Se ha agregado el registro exitosamente");
+
+                    //     $("#ModalCheck").modal("show");
+                    //   listaProductos();
+
+                },
+                error: function (xhr, status) {
+                    alert('Disculpe, existió un problema');
+                },
+            });
+        }
+
+    });
+
+
+
+    $("#btnSave1").click(function () {
+
+        if (window.FormData == undefined)
+            alert("Error: FormData is undefined");
+
+        else {
+
+            var fileData = new FormData();
+            // para los productos
+            var fileUpload = $("#fileToUpload1").get(0);
+            var descripcion = $("#txtdescripcion1").val();
+            var key = $("#keynoticia").val();
+            var files = fileUpload.files;
+            fileData.append(files[0].name, files[0]);
+            fileData.append("key", key);
+            fileData.append("descripcion", descripcion);
+
+            $.ajax({
+                url: '/Archivo/ModificarNoticia/',
+                type: 'post',
+                datatype: 'json',
+                contentType: false,
+                processData: false,
+                async: false,
+                data: fileData,
+                success: function (response) {
+                    listaNoticias();
+
+                    $("#ModificarNoticia").modal("hide");
+                    alert("Se han modificado los datos exitosamente");
+
+
+                },
+                error: function (xhr, status) {
+                    alert('Disculpe, existió un problema');
+                },
+            });
+        }
+
+    });
+
+
+    function eliminar(key_noticia) {
+        var id_c = String(key_noticia).replace(/\/+/g, "");
+        $.ajax({
+            url: '/Archivo/Eliminar/?key_noticia=' + id_c,
+            type: 'post',
+            datatype: 'json',
+
+            success: function (response) {
+                listaNoticias();
+
+                alert("Se ha eliminado los datos exitosamente");
+
+            },
+            error: function (xhr, status) {
+                alert('Disculpe, existió un problema');
+            },
+        });
+    }
+</script>
